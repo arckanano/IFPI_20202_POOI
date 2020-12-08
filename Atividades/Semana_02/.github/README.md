@@ -63,3 +63,35 @@ public class Saudacao {
 ```
 ---
 ## Q8
+- Classe criada:
+```Java
+// Classe criada
+public class Saudacao {
+    String texto;
+    String destinatario;
+
+    // Método
+    public String obterSaudacao() {
+        String saida = texto + " " + destinatario;
+        return saida;
+    }
+}
+```
+- Classe de testes
+```Java
+public class TestaSaudacao {
+    public static void main(String[] args) {
+        Saudacao s = new Saudacao();
+        s.texto = "Bom dia";
+        s.destinatario = "Joao";
+
+        System.out.println(s.obterSaudacao());
+    }    
+}
+```
+---
+## Q9
+- O modelo abordado na questão 8 é o mais estruturado, mais voltado a Orientação a Objeto e que proporciona maior portabilidade e modularização. Também é o mais burocrático pois há a necessidade de criar mais arquivos, e 'digitar mais'.
+---
+## Q10
+
