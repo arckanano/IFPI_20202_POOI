@@ -13,3 +13,8 @@
 - Caso *a* fosse *verdadeiro* ocorreria o incremento em *b* que passaria a valer *1*;
 ---
 ## Q4
+- O comando *switch...case* testa todos os casos e imprime o valor em cada caso;
+- Normalmente é usado com um *break* no final de cada caso;
+- Sem o *break* todos os casos são testados;
+---
+## Q5
