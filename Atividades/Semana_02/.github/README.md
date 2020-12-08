@@ -39,3 +39,14 @@ public class Exemplo {
 }
 
 ```
+---
+## Q6
+```Java
+public class Saudacao {
+    public static void main(String[] args) {
+        System.out.println("Bem Vindo!");
+    }
+}
+```
+---
+## Q7
