@@ -4,6 +4,7 @@ public class Saudacao {
 
     // Método
     public String obterSaudacao() {
-        System.out.println(texto + " " + destinatario);
+        String saida = texto + " " + destinatario;
+        return saida;
     }
 }

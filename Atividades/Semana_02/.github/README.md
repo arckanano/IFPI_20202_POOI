@@ -50,3 +50,16 @@ public class Saudacao {
 ```
 ---
 ## Q7
+```Java
+public class Saudacao {
+    String texto;
+    String destinatario;
+
+    // Método
+    String obterSaudacao() {
+        System.out.println(texto + " " + destinatario);
+    }
+}
+```
+---
+## Q8
