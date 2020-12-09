@@ -1,16 +1,14 @@
-package q13;
+import javax.print.attribute.standard.RequestingUserName;
 
 public class NumberUtils {
-    int n;
+    int num;
 
-    public boolean isPair(){
-        if (n % 2 == 0) {
-            return true;
-        }
+    public boolean isPair() {
+        return num % 2 == 0;
     }
 
     public boolean isOdd() {
-        if (n % 2 == 0) {
+        if (num % 2 == 0) {
             return true;
         } else {
             return false;
@@ -18,14 +16,19 @@ public class NumberUtils {
     }
 
     public boolean isPrime() {
-
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 
     public String printCount() {
-
+        for (int i = 0; i <= num; i++) {
+            String x = (String) i;
+            return x;
+        };
     }
 
-    public String printReverseCount() {
-
-    }
 }
