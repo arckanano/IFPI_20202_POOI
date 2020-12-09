@@ -24,11 +24,16 @@ public class NumberUtils {
         return true;
     }
 
-    public String printCount() {
+    public void printCount() {
         for (int i = 0; i <= num; i++) {
-            String x = (String) i;
-            return x;
+            System.out.print(i+" ");
         };
+    }
+
+    public void printReverseCount() {
+        for (int i = num; i >=0; i--) {
+            System.out.print(i+" ");
+        }
     }
 
 }
