@@ -94,12 +94,16 @@ public class TestaSaudacao {
 - O modelo abordado na questão 8 é o mais estruturado, mais voltado a Orientação a Objeto e que proporciona maior portabilidade e modularização. Também é o mais burocrático pois há a necessidade de criar mais arquivos, e 'digitar mais'.
 ---
 ## Q10
+- Código na pasta;
 ---
 ## Q11
+- Código na pasta;
 ---
 ## Q12
+- Código na pasta;
 ---
 ## Q13
+- Código na pasta (não finalizado);
 ---
 ## Q14
 ---
