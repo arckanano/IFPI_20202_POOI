@@ -16,6 +16,7 @@ public class Equipamento {
         } else {
             return ligado = true;
         }
+        // ligado = !ligado
     }
 
     public boolean estaLigado() {

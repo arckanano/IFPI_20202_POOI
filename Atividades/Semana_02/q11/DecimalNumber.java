@@ -7,8 +7,9 @@ public class DecimalNumber {
     }
 
     public double exibirDecimal() {
-        double myDecimal = myDouble % 1;
-        return myDecimal;
+        return myDouble - exibirInteira(); // Correção
+        // double myDecimal = myDouble % 1;
+        // return myDecimal;
     }
 
 }

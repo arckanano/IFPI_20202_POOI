@@ -8,11 +8,12 @@ public class NumberUtils {
     }
 
     public boolean isOdd() {
-        if (num % 2 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return ! isPair();
+        // if (num % 2 == 0) {
+        //     return true;
+        // } else {
+        //     return false;
+        // }
     }
 
     public boolean isPrime() {
@@ -28,6 +29,27 @@ public class NumberUtils {
         for (int i = 0; i <= num; i++) {
             System.out.print(i+" ");
         };
+    }
+
+    // Correção
+    String printCount() {
+        int i = 0;
+        String s = "";
+        while (i < n) {
+            s = s + i + " ";
+            i++;
+        }
+    }
+
+    // Correção
+    String printReverseCount() {
+        int i = n;
+        String s = "";
+        while (i >=0) {
+            s = s + i + " ";
+            i--;
+        }
+
     }
 
     public void printReverseCount() {
