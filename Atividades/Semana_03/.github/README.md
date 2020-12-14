@@ -12,3 +12,8 @@
 ´´´Java
 
 ´´´
+---
+# Questão 05
+- Falta declarar se a classe *Radio()* é publica/privada/protegida, colocar o tipo de retorno, e o retorno;
+---
+# Questão 06
