@@ -14,10 +14,10 @@ void x(double valor) {
     valor = valor + valor;
 }
 ```
-- Escrito dessa forma o método fica confuso de se ler pois o atributo e o parametro tem o mesmo nome, isso pode ser reescrito da seguinte forma:
+- O metódo está fazendo alterações em variáveis apenas do seu próprio escopo, as alterações vão funcionar apenas na variável valor do método e não na classe:
 ```Java
 void x(double valor) {
-    this.valor = valor + valor;
+    this.valor = this.valor + valor;
 }
 ```
 - agora com o *this* fica facilmente reconhecivel que o primeiro *valor* se refere ao atributo da classe e o segundo *valor* ao parametro.
