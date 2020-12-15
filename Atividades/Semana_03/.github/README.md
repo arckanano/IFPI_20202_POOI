@@ -30,8 +30,11 @@ void x(double valor) {
 - b) O Objeto *c1* estava no endereço Conta@10 e o objeto *c2* no endereço Conta@13, ao fazer *c1 = c2*, *c1* passou a apontar para o endereço *Conta@13*.
 ---
 # Questão 07
+- código na pasta;
 ---
 # Questão 08
+- código na pasta;
+- b) Consultar o saldo através de um método é mais seguro que consultar o saldo diretamente;
 ---
 # Questão 09
 ---

@@ -7,8 +7,13 @@ public class Conta {
         this.saldo = valor;
     }
 
-    void sacar(double valor) {
-        saldo = saldo - valor;
+    boolean sacar(double valor) {
+        if ( saldo - valor < 0 ) {
+            return false;
+        } else {
+            saldo = saldo - valor;
+            return true;
+        }
     }
 
     void depositar(double valor) {
@@ -19,9 +24,14 @@ public class Conta {
         return saldo;
     }
 
-    void transferir(Conta destino, double valor) {
-        this.sacar(valor);
-        destino.depositar(valor);
+    boolean transferir(Conta destino, double valor) {
+        if (this.sacar(valor) == false) {
+            return false;
+        } else {
+            this.sacar(valor);
+            destino.depositar(valor);
+            return true;
+        }
     }
 
 }
