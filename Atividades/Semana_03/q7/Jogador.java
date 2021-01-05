@@ -10,10 +10,11 @@ public class Jogador {
     }
 
     int pontosAtaque(int forca, int nivel) {
-        return forca * nivel;
+        int ptsAtaque = this.forca * this.nivel;
+        return ptsAtaque;
     }
 
-    void atacar(Jogador outroJogador){
-        outroJogador.pontosAtuais -= this.pontosAtaque(forca, nivel);
+    void atacar(Jogador player){
+        player.pontosAtuais = player.pontosAtuais - this.pontosAtaque(this.forca, this.nivel);
     }
 }
