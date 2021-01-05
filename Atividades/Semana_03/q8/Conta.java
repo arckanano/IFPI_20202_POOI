@@ -8,16 +8,16 @@ public class Conta {
     }
 
     boolean sacar(double valor) {
-        if ( saldo - valor < 0 ) {
+        if ( this.saldo - valor < 0 ) {
             return false;
         } else {
-            saldo = saldo - valor;
+            this.saldo = this.saldo - valor;
             return true;
         }
     }
 
     void depositar(double valor) {
-        saldo = saldo + valor;
+        this.saldo = this.saldo + valor;
     }
 
     double consultarSaldo() {
@@ -28,7 +28,7 @@ public class Conta {
         if (this.sacar(valor) == false) {
             return false;
         } else {
-            this.sacar(valor);
+            // this.sacar(valor);
             destino.depositar(valor);
             return true;
         }
