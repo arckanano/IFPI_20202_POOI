@@ -33,4 +33,14 @@ public class Produto {
         return "Codigo: " + this.codigo + "\nDescricao: " + this.descricao + "\nValor: R$" + this.valor + "\nQuantidade: " + this.quantidade;
     }
 
+    public boolean equals(Produto produto){
+        boolean b = (produto.codigo == this.codigo) ? true : false;
+        return b;
+    //     if (produto.codigo == this.codigo){
+    //         return true;
+    //     } else {
+    //         return false;
+    //     }
+    }
+
 }

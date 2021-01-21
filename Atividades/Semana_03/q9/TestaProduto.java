@@ -16,6 +16,10 @@ public class TestaProduto {
 
         // Imprimindo descrição total do produto;
         System.out.println(p1.toString());
+
+        // Verificando se tem o mesmo código
+        System.out.println(p1.equals(p1));
+        
         
     }
 }
