@@ -3,11 +3,9 @@ public class Conta {
     private String conta;
     private int saldo;
 
-    public Conta(){
+    Conta(){}
 
-    }
-
-    public Conta(String conta, int saldo){
+    Conta(String conta, int saldo){
         setConta(conta);
         setSaldo(saldo);
     }
