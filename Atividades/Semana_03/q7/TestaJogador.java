@@ -8,19 +8,22 @@ public class TestaJogador {
         System.out.println("Força: " + j1.forca);
         System.out.println("Nivel: " + j1.nivel);
         System.out.println("Pontos Atuais: " + j1.pontosAtuais);
+        System.out.println("Poder de ataque: " + j1.forca * j1.nivel);
 
         System.out.println("\nJogador 2:");
         System.out.println("Força: " + j2.forca);
         System.out.println("Nivel: " + j2.nivel);
         System.out.println("Pontos Atuais: " + j2.pontosAtuais);
+        System.out.println("Poder de ataque: " + j2.forca * j2.nivel);
         
         // Passar quem vai receber o ataque
         j1.atacar(j2);
 
+        // Verificando quem tem mais pontos
         System.out.println("\n>>>>>Ataque realizado<<<<<");
         System.out.println("\nPontos restantes:");
         System.out.println("\nJogador 1\nPontos Atuais: " + j1.pontosAtuais);
-        System.out.println("\nJogador 2\nPontos Atauis: " + j2.pontosAtuais);
+        System.out.println("\nJogador 2\nPontos Atuais: " + j2.pontosAtuais);
 
 
 
