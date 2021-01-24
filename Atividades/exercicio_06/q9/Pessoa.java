@@ -1,5 +1,3 @@
-package q6;
-
 public class Pessoa {
     private String nome;
     private String sobrenome;

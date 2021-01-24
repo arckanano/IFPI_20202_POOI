@@ -26,17 +26,22 @@ App.java:5: error: incompatible types: Animal cannot be converted to Peixe
 - Falta fazer
 ---
 # Q06
-
+- Pasta
 ---
 # Q07
+- Pasta
 ---
 # Q08
+- Pasta
 ---
 # Q09
+- Pasta
 ---
 # Q10
+- TODO
 ---
 # Q11
+- 
 ---
 # Q12
 ---
