@@ -6,6 +6,7 @@
 ---
 
 # Questão 03
+- Caso os métodos não sejam implementados, a classe que extendeu a classe abstrata irá implementar os métodos da classe abstrata.
 ---
 
 # Questão 04
