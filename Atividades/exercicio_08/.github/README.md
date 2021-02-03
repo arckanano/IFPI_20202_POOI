@@ -19,7 +19,7 @@
 ---
 
 # Questão 06
-- TODO
+- É possível criar um array de interfaces, mas será necessário preencher cada posição do array com instancias de classes que implementam a interface.   
 ---
 
 # Questão 07
