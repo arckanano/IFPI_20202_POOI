@@ -3,6 +3,7 @@
 ---
 
 # Questão 02
+- Como foi definido um método abstrato na classe abstrata, logo as classes filhas deveram realizar suas proprias implementações do método.
 ---
 
 # Questão 03
@@ -14,12 +15,15 @@
 ---
 
 # Questão 05
+- Pasta
 ---
 
 # Questão 06
+- TODO
 ---
 
 # Questão 07
+- Pasta
 ---
 
 # Questão 08
