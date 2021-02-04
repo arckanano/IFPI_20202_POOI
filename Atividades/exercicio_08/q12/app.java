@@ -1,8 +1,12 @@
 public class app {
     public static void main(String[] args) {
-        ContaCorrente cc = new ContaCorrente("maria", 1000.00);
+        ContaCorrente c1 = new ContaCorrente("maria", 1000.00);
+        ContaCorrente c2 = new ContaCorrente("jose", 2000.00);
+        ContaCorrente c3 = new ContaCorrente("joao", 3000.00);
+        SeguroVida s1 = new SeguroVida();
 
-        System.out.println("Saldo da conta: " + cc.getSaldo());
-        System.out.println("Tributo Maria: " + cc.calculaTributo());
+        // IMCOMPLETA
+        
+
     }
 }
