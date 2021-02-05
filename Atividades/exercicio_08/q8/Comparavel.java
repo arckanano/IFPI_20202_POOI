@@ -1,5 +1,5 @@
 public interface Comparavel {
     
-    public int comparar();
+    public int comparar(FiguraGeometrica f);
 
 }
